@@ -1,7 +1,10 @@
-# 👾알고리즘 문제풀이
+![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Algorithm&fontAlign=70&fontAlignY=35&color=gradient)
 
-> 알고리즘 문제를 풀어보고 개념, 스킬들을 정리합니다.
 
+## 📣 소개 
+- 알고리즘 문제풀이 저장소입니다. 
+- 정답 소스코드와 문제를 풀며 정리한 내용 등을 기록했습니다. 
+<br/>
 
 
 ## 🗃️폴더구조
@@ -24,6 +27,8 @@
 **파일명**은 `출처_난이도_번호_문제이름`으로 표기합니다.
 
 예)  `BOJ_S5_10157_자리배정`, `SW_D3_1289_원재의메모리복구하기`
+<br/>
+<br/>
 
 
 
