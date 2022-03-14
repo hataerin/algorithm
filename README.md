@@ -11,17 +11,15 @@
  ├── 📁BOJ
  ├── 📁JO
  ├── 📁SWEA
- ├── 📁SSAFY
  ├── 📁Tip
  └── 📄README.md
 ```
 
 >  **폴더명**은 문제 출처를 나타냅니다.
 >
-> - `BOJ` : [Baekjoon Online Judge](https://www.acmicpc.net/)
-> - `JO` : [한국정보올림피아드](https://koi.or.kr/)
-> - `SWEA` : [SW Expert Academy](https://swexpertacademy.com/)
-> - `SSAFY` : [삼성 청년 SW 아카데미](https://www.ssafy.com/)
+>  - `BOJ` : [Baekjoon Online Judge](https://www.acmicpc.net/)
+>  - `JO` : [한국정보올림피아드](https://koi.or.kr/)
+>  - `SWEA` : [SW Expert Academy](https://swexpertacademy.com/)
 
 **파일명**은 `출처_난이도_번호_문제이름`으로 표기합니다.
 
@@ -31,4 +29,4 @@
 
 ## 🍯Tip
 
-`Tip` 폴더에는 알고리즘을 풀 때 도움이 되는 개념, 스킬, 팁들을 적어둘 예정입니다 (아직아님ㅎㅎ)
+`Tip` 폴더에는 알고리즘을 풀 때 도움이 되는 개념을 정리해두었습니다.
