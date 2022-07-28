@@ -11,16 +11,18 @@
 
 ```
 👾algorithm
- ├── 📁BOJ
- ├── 📁JO
- ├── 📁SWEA
  ├── 📁Tip
+ ├── 📁출처
+ │    └── 📁난이도
+ │         └── 📁번호.문제이름
+ │              ├── 📄README.md
+ │              └── 📄문제이름.확장자
  └── 📄README.md
 ```
 
 >  **폴더명**은 문제 출처를 나타냅니다.
 >
->  - `BOJ` : [Baekjoon Online Judge](https://www.acmicpc.net/)
+>  - `백준` : [Baekjoon Online Judge](https://www.acmicpc.net/)
 >  - `JO` : [한국정보올림피아드](https://koi.or.kr/)
 >  - `SWEA` : [SW Expert Academy](https://swexpertacademy.com/)
 
