@@ -22,7 +22,7 @@
 >  **폴더명**은 문제 출처를 나타냅니다.
 >
 >  - `백준` : [Baekjoon Online Judge](https://www.acmicpc.net/)
->  - `JO` : [한국정보올림피아드](https://koi.or.kr/)
+>  - `프로그래머스` : [programmers school](https://school.programmers.co.kr/)
 >  - `SWEA` : [SW Expert Academy](https://swexpertacademy.com/)
 
 **커밋 메세지**는 `[난이도] Title: 제목, Time: 실행 시간, Memory: 사용 메모리`으로 표기합니다.
