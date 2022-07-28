@@ -4,7 +4,6 @@
 ## 📣 소개 
 - 알고리즘 문제풀이 저장소입니다. 
 - 문제 링크와 제출 코드, 사용메모리, 실행시간 등을 기록했습니다.
-<br/>
 
 
 ## 🗃️폴더구조
@@ -25,8 +24,6 @@
 >  - `백준` : [Baekjoon Online Judge](https://www.acmicpc.net/)
 >  - `프로그래머스` : [programmers school](https://school.programmers.co.kr/)
 
-<br/>
-<br/>
 
 **커밋 메세지**는 `[난이도] Title: 제목, Time: 실행 시간, Memory: 사용 메모리`으로 표기합니다.
 
