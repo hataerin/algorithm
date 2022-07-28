@@ -21,12 +21,14 @@
 
 >  **폴더명**은 문제 출처를 나타냅니다.
 >
+>  - `SWEA` : [SW Expert Academy](https://swexpertacademy.com/)
 >  - `백준` : [Baekjoon Online Judge](https://www.acmicpc.net/)
 >  - `프로그래머스` : [programmers school](https://school.programmers.co.kr/)
->  - `SWEA` : [SW Expert Academy](https://swexpertacademy.com/)
+
+<br/>
+<br/>
 
 **커밋 메세지**는 `[난이도] Title: 제목, Time: 실행 시간, Memory: 사용 메모리`으로 표기합니다.
 
-예)  `[Silver III] Title: N과 M (2), Time: 220 ms, Memory: 17772 KB`, `[Silver III] Title: N과 M (2), Time: 220 ms, Memory: 17772 KB`
-<br/>
+예)  `[Silver III] Title: N과 M (2), Time: 220 ms, Memory: 17772 KB`, `[D2] Title: 파리 퇴치, Time: 154 ms, Memory: 21,508 KB`
 <br/>
