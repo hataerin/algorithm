@@ -1,4 +1,4 @@
-![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Algorithm&fontAlign=70&fontAlignY=35&color=gradient)
+![header](https://capsule-render.vercel.app/api?section=header&type=waving&height=200&text=Algorithm&fontAlign=70&fontAlignY=35&color=gradient&fontcolor=white)
 
 
 ## 📣 소개 
@@ -32,3 +32,6 @@
 
 예)  `[Silver III] Title: N과 M (2), Time: 220 ms, Memory: 17772 KB`, `[D2] Title: 파리 퇴치, Time: 154 ms, Memory: 21,508 KB`
 <br/>
+
+![footer](https://capsule-render.vercel.app/api?section=footer&type=waving&color=gradient&fontcolor=white)
+
