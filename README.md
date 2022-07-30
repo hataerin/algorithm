@@ -30,5 +30,3 @@
 예)  `[Silver III] Title: N과 M (2), Time: 220 ms, Memory: 17772 KB`, `[D2] Title: 파리 퇴치, Time: 154 ms, Memory: 21,508 KB`
 <br/>
 
-![footer](https://capsule-render.vercel.app/api?section=footer&type=waving&color=gradient&fontcolor=white)
-
