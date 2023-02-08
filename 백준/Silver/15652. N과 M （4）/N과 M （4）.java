@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-
     static int N, M;
     static int[] numbers;
     static StringBuilder sb = new StringBuilder();
@@ -17,24 +16,21 @@ public class Main {
 
     }
 
-    //중복O 조합, 오름차순
+    //중복O 조합
     private static void combination(int cnt, int start) {
         //기저조건
         if (cnt == M) {
-            print(numbers);
+            for (int i = 0; i < M; i++) {
+                sb.append(numbers[i] + " ");
+            }
+            sb.append("\n");
             return;
         }
+
         //유도파트
         for (int i = start; i <= N; i++) {
             numbers[cnt] = i;
-            combination(cnt+1, i);
+            combination(cnt + 1, i);
         }
-    }
-
-    private static void print(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            sb.append(arr[i] + " ");
-        }
-        sb.append("\n");
     }
 }
