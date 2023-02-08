@@ -1,42 +1,41 @@
-import java.io.BufferedWriter;
-import java.io.OutputStreamWriter;
 import java.util.Scanner;
-import java.util.Stack;
 
 public class Main {
-    static int N;
-    static int M;
-    static StringBuilder sb;
-    static Stack<Integer> alreadyIn;
 
-    public static void main(String[] args) throws Exception {
+    static int N, M;
+    static int[] numbers;
+    static boolean[] isSelected;
 
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         N = sc.nextInt();
         M = sc.nextInt();
 
-        sb = new StringBuilder();
-        alreadyIn = new Stack<>();
+        numbers = new int[M];
+        isSelected = new boolean[N + 1];
 
-        recur(0, "");
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        bw.write(sb.toString().trim());
-        bw.close();
+        permutation(0);
+
+
     }
 
-    public static void recur(int applyNum, String makingStr) {
-        if (applyNum == M) {
-            sb.append(makingStr.trim() + "\n");
-
-        } else {
-            ++applyNum;
-            for (int i = 1; i <= N; i++) {
-                if (!alreadyIn.contains(i)) {
-                    alreadyIn.push(i);
-                    recur(applyNum, makingStr + " " + i);
-                    alreadyIn.pop();
-                }
+    //중복X 순열
+    private static void permutation(int cnt) {
+        if (cnt == M) {
+            for (int i = 0; i < M; i++) {
+                System.out.print(numbers[i] + " ");
             }
+            System.out.println();
+            return;
+        }
+
+        //기저조건
+        for (int i = 1; i <= N; i++) {
+            if (isSelected[i]) continue;
+            numbers[cnt] = i;
+            isSelected[i] = true;
+            permutation(cnt + 1);
+            isSelected[i] = false;
         }
     }
 }
