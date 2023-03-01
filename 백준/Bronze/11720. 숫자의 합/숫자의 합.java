@@ -1,18 +1,19 @@
 import java.util.Scanner;
 
 public class Main {
+    static int N, result = 0;
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        sc.nextLine();
-        String str = sc.nextLine();
-        String[] arr = str.split("");
+        N = Integer.parseInt(sc.next());
+        String str = sc.next();
+        String[] strArr = str.split("");
 
-        int sum = 0;
-        for (int i = 0; i < arr.length; i++) {
-            sum += Integer.parseInt(arr[i]);
+        for (int n = 0; n < N; n++) {
+            result += Integer.parseInt(strArr[n]);
         }
 
-        System.out.println(sum);
+        System.out.println(result);
     }
 }
